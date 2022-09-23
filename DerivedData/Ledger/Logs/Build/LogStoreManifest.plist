@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1B0F9E7F-41B2-4A51-965E-9FD5461EC547</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1B0F9E7F-41B2-4A51-965E-9FD5461EC547.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Ledger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Ledger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Ledger</string>
+			<key>timeStartedRecording</key>
+			<real>641628249.80482996</real>
+			<key>timeStoppedRecording</key>
+			<real>641628249.83898199</real>
+			<key>title</key>
+			<string>Build Ledger</string>
+			<key>uniqueIdentifier</key>
+			<string>1B0F9E7F-41B2-4A51-965E-9FD5461EC547</string>
+		</dict>
+		<key>A39C0BA6-5E40-4BE6-A05E-95231642FE88</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A39C0BA6-5E40-4BE6-A05E-95231642FE88.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Ledger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Ledger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Ledger</string>
+			<key>timeStartedRecording</key>
+			<real>641628192.13270795</real>
+			<key>timeStoppedRecording</key>
+			<real>641628192.94865501</real>
+			<key>title</key>
+			<string>Build Ledger</string>
+			<key>uniqueIdentifier</key>
+			<string>A39C0BA6-5E40-4BE6-A05E-95231642FE88</string>
+		</dict>
+		<key>C371ADD8-859C-4FD9-A4C2-E6BF041D46A6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C371ADD8-859C-4FD9-A4C2-E6BF041D46A6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Ledger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Ledger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Ledger</string>
+			<key>timeStartedRecording</key>
+			<real>641628337.38639402</real>
+			<key>timeStoppedRecording</key>
+			<real>641628337.42165601</real>
+			<key>title</key>
+			<string>Build Ledger</string>
+			<key>uniqueIdentifier</key>
+			<string>C371ADD8-859C-4FD9-A4C2-E6BF041D46A6</string>
+		</dict>
+		<key>CCA21A65-2A63-467C-8086-EC475D895693</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CCA21A65-2A63-467C-8086-EC475D895693.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Ledger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Ledger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Ledger</string>
+			<key>timeStartedRecording</key>
+			<real>641565502.48682797</real>
+			<key>timeStoppedRecording</key>
+			<real>641565502.56470001</real>
+			<key>title</key>
+			<string>Build Ledger</string>
+			<key>uniqueIdentifier</key>
+			<string>CCA21A65-2A63-467C-8086-EC475D895693</string>
+		</dict>
+		<key>DE520C6F-CE2C-4A99-A6C7-BD328C3EB3E7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DE520C6F-CE2C-4A99-A6C7-BD328C3EB3E7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Ledger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Ledger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Ledger</string>
+			<key>timeStartedRecording</key>
+			<real>641628227.84198797</real>
+			<key>timeStoppedRecording</key>
+			<real>641628227.87992895</real>
+			<key>title</key>
+			<string>Build Ledger</string>
+			<key>uniqueIdentifier</key>
+			<string>DE520C6F-CE2C-4A99-A6C7-BD328C3EB3E7</string>
+		</dict>
+		<key>F58239A3-FC0E-48B2-B80E-A775AEAD3F6C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F58239A3-FC0E-48B2-B80E-A775AEAD3F6C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Ledger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Ledger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Ledger</string>
+			<key>timeStartedRecording</key>
+			<real>641628358.20682299</real>
+			<key>timeStoppedRecording</key>
+			<real>641628358.22733903</real>
+			<key>title</key>
+			<string>Build Ledger</string>
+			<key>uniqueIdentifier</key>
+			<string>F58239A3-FC0E-48B2-B80E-A775AEAD3F6C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
