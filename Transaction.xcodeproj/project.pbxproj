@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		511F5CFA263D9A61006EEA44 /* LedgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511F5CF9263D9A61006EEA44 /* LedgerApp.swift */; };
+		511F5CFC263D9A61006EEA44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511F5CFB263D9A61006EEA44 /* ContentView.swift */; };
+		511F5CFE263D9A62006EEA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511F5CFD263D9A62006EEA44 /* Assets.xcassets */; };
+		511F5D01263D9A62006EEA44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511F5D00263D9A62006EEA44 /* Preview Assets.xcassets */; };
+		511F5D03263D9A62006EEA44 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511F5D02263D9A62006EEA44 /* Persistence.swift */; };
+		511F5D06263D9A62006EEA44 /* Ledger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 511F5D04263D9A62006EEA44 /* Ledger.xcdatamodeld */; };
+		511F5D1C263D9D22006EEA44 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 511F5D18263D9D22006EEA44 /* Cairo-Regular.ttf */; };
+		511F5D1D263D9D22006EEA44 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 511F5D19263D9D22006EEA44 /* Cairo-SemiBold.ttf */; };
+		511F5D1E263D9D22006EEA44 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 511F5D1A263D9D22006EEA44 /* Cairo-Bold.ttf */; };
+		511F5D1F263D9D22006EEA44 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 511F5D1B263D9D22006EEA44 /* OpenSans-Regular.ttf */; };
+		511F5D24263D9E19006EEA44 /* ContactPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511F5D21263D9E19006EEA44 /* ContactPageView.swift */; };
+		511F5D25263D9E19006EEA44 /* NewPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511F5D22263D9E19006EEA44 /* NewPersonView.swift */; };
+		511F5D26263D9E19006EEA44 /* NewTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511F5D23263D9E19006EEA44 /* NewTransactionView.swift */; };
+		511F5D29263D9E25006EEA44 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511F5D28263D9E25006EEA44 /* AlertView.swift */; };
+		51209554264FA2C400555433 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51209553264FA2C400555433 /* ProjectListView.swift */; };
+		51209556264FA2D200555433 /* ProjectPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51209555264FA2D200555433 /* ProjectPageView.swift */; };
+		5120955D264FA45500555433 /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51209557264FA45500555433 /* Transaction+CoreDataClass.swift */; };
+		5120955E264FA45500555433 /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51209558264FA45500555433 /* Transaction+CoreDataProperties.swift */; };
+		51209563264FA55B00555433 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5120955C264FA45500555433 /* Project+CoreDataProperties.swift */; };
+		51209564264FA56500555433 /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5120955B264FA45500555433 /* Project+CoreDataClass.swift */; };
+		51209566264FBF4700555433 /* NewProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51209565264FBF4700555433 /* NewProjectView.swift */; };
+		512095692650EEEB00555433 /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512095672650EEEB00555433 /* Contact+CoreDataClass.swift */; };
+		5120956A2650EEEB00555433 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512095682650EEEB00555433 /* Contact+CoreDataProperties.swift */; };
+		5144091F263E7BD400AF4E50 /* FirstResponderTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5144091E263E7BD400AF4E50 /* FirstResponderTextFieldView.swift */; };
+		51743DCF265DF90B00BE6645 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51743DCE265DF90A00BE6645 /* Lato-Bold.ttf */; };
+		51743DD1265DF93400BE6645 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51743DD0265DF93400BE6645 /* Lato-Regular.ttf */; };
+		51743DD3265DFC8B00BE6645 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51743DD2265DFC8B00BE6645 /* Lato-Black.ttf */; };
+		51743DD9265E062000BE6645 /* GillSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51743DD8265E062000BE6645 /* GillSans-Bold.otf */; };
+		51743DDB265E08BF00BE6645 /* GillSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51743DDA265E08BF00BE6645 /* GillSans-Medium.otf */; };
+		51743DDD265E093300BE6645 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51743DDC265E093300BE6645 /* NunitoSans-Bold.ttf */; };
+		51743DDF265E09DD00BE6645 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51743DDE265E09DD00BE6645 /* Roboto-Bold.ttf */; };
+		51743DE1265E0ADF00BE6645 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51743DE0265E0ADF00BE6645 /* Roboto-Regular.ttf */; };
+		51743DE3265E0AEB00BE6645 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51743DE2265E0AEB00BE6645 /* Roboto-Medium.ttf */; };
+		51A3291E264D3AB600988C65 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A3291D264D3AB600988C65 /* HomeView.swift */; };
+		51F2EF7B26551418003CD055 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2EF7A26551418003CD055 /* PeopleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		511F5CF6263D9A61006EEA44 /* Transaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transaction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		511F5CF9263D9A61006EEA44 /* LedgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerApp.swift; sourceTree = "<group>"; };
+		511F5CFB263D9A61006EEA44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		511F5CFD263D9A62006EEA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		511F5D00263D9A62006EEA44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		511F5D02263D9A62006EEA44 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		511F5D05263D9A62006EEA44 /* Ledger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ledger.xcdatamodel; sourceTree = "<group>"; };
+		511F5D07263D9A62006EEA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		511F5D18263D9D22006EEA44 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		511F5D19263D9D22006EEA44 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		511F5D1A263D9D22006EEA44 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		511F5D1B263D9D22006EEA44 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		511F5D21263D9E19006EEA44 /* ContactPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactPageView.swift; path = ../../../Desktop/Ledger/Ledger/ContactPageView.swift; sourceTree = "<group>"; };
+		511F5D22263D9E19006EEA44 /* NewPersonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewPersonView.swift; path = ../../../Desktop/Ledger/Ledger/NewPersonView.swift; sourceTree = "<group>"; };
+		511F5D23263D9E19006EEA44 /* NewTransactionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewTransactionView.swift; path = ../../../Desktop/Ledger/Ledger/NewTransactionView.swift; sourceTree = "<group>"; };
+		511F5D28263D9E25006EEA44 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertView.swift; path = ../../../Desktop/Ledger/Ledger/AlertView.swift; sourceTree = "<group>"; };
+		51209553264FA2C400555433 /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
+		51209555264FA2D200555433 /* ProjectPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPageView.swift; sourceTree = "<group>"; };
+		51209557264FA45500555433 /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		51209558264FA45500555433 /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5120955B264FA45500555433 /* Project+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5120955C264FA45500555433 /* Project+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		51209565264FBF4700555433 /* NewProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectView.swift; sourceTree = "<group>"; };
+		512095672650EEEB00555433 /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataClass.swift"; sourceTree = "<group>"; };
+		512095682650EEEB00555433 /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5144091E263E7BD400AF4E50 /* FirstResponderTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstResponderTextFieldView.swift; sourceTree = "<group>"; };
+		51743DCE265DF90A00BE6645 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../../../Downloads/Lato/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		51743DD0265DF93400BE6645 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../../../Downloads/Lato/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		51743DD2265DFC8B00BE6645 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "../../../Downloads/Lato/Lato-Black.ttf"; sourceTree = "<group>"; };
+		51743DD8265E062000BE6645 /* GillSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GillSans-Bold.otf"; path = "../../../Downloads/GillSans/GillSans-Bold.otf"; sourceTree = "<group>"; };
+		51743DDA265E08BF00BE6645 /* GillSans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GillSans-Medium.otf"; path = "../../../Downloads/GillSans/GillSans-Medium.otf"; sourceTree = "<group>"; };
+		51743DDC265E093300BE6645 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-Bold.ttf"; path = "../../../Downloads/Nunito_Sans/NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		51743DDE265E09DD00BE6645 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../Downloads/Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		51743DE0265E0ADF00BE6645 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../Downloads/Roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		51743DE2265E0AEB00BE6645 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../Downloads/Roboto/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		51A3291D264D3AB600988C65 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		51F2EF7A26551418003CD055 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		511F5CF3263D9A61006EEA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		511F5CED263D9A61006EEA44 = {
+			isa = PBXGroup;
+			children = (
+				512095672650EEEB00555433 /* Contact+CoreDataClass.swift */,
+				512095682650EEEB00555433 /* Contact+CoreDataProperties.swift */,
+				51209557264FA45500555433 /* Transaction+CoreDataClass.swift */,
+				51209558264FA45500555433 /* Transaction+CoreDataProperties.swift */,
+				5120955B264FA45500555433 /* Project+CoreDataClass.swift */,
+				5120955C264FA45500555433 /* Project+CoreDataProperties.swift */,
+				511F5CF8263D9A61006EEA44 /* Ledger */,
+				511F5CF7263D9A61006EEA44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		511F5CF7263D9A61006EEA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				511F5CF6263D9A61006EEA44 /* Transaction.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		511F5CF8263D9A61006EEA44 /* Ledger */ = {
+			isa = PBXGroup;
+			children = (
+				511F5CF9263D9A61006EEA44 /* LedgerApp.swift */,
+				511F5CFB263D9A61006EEA44 /* ContentView.swift */,
+				511F5D21263D9E19006EEA44 /* ContactPageView.swift */,
+				511F5D22263D9E19006EEA44 /* NewPersonView.swift */,
+				511F5D23263D9E19006EEA44 /* NewTransactionView.swift */,
+				51209565264FBF4700555433 /* NewProjectView.swift */,
+				511F5D28263D9E25006EEA44 /* AlertView.swift */,
+				5144091E263E7BD400AF4E50 /* FirstResponderTextFieldView.swift */,
+				51A3291D264D3AB600988C65 /* HomeView.swift */,
+				51209553264FA2C400555433 /* ProjectListView.swift */,
+				51209555264FA2D200555433 /* ProjectPageView.swift */,
+				51F2EF7A26551418003CD055 /* PeopleView.swift */,
+				511F5CFD263D9A62006EEA44 /* Assets.xcassets */,
+				511F5D02263D9A62006EEA44 /* Persistence.swift */,
+				511F5D07263D9A62006EEA44 /* Info.plist */,
+				511F5D04263D9A62006EEA44 /* Ledger.xcdatamodeld */,
+				51743DE2265E0AEB00BE6645 /* Roboto-Medium.ttf */,
+				51743DDE265E09DD00BE6645 /* Roboto-Bold.ttf */,
+				51743DE0265E0ADF00BE6645 /* Roboto-Regular.ttf */,
+				51743DDC265E093300BE6645 /* NunitoSans-Bold.ttf */,
+				51743DD8265E062000BE6645 /* GillSans-Bold.otf */,
+				51743DDA265E08BF00BE6645 /* GillSans-Medium.otf */,
+				51743DD2265DFC8B00BE6645 /* Lato-Black.ttf */,
+				51743DCE265DF90A00BE6645 /* Lato-Bold.ttf */,
+				51743DD0265DF93400BE6645 /* Lato-Regular.ttf */,
+				511F5D1A263D9D22006EEA44 /* Cairo-Bold.ttf */,
+				511F5D18263D9D22006EEA44 /* Cairo-Regular.ttf */,
+				511F5D19263D9D22006EEA44 /* Cairo-SemiBold.ttf */,
+				511F5D1B263D9D22006EEA44 /* OpenSans-Regular.ttf */,
+				511F5CFF263D9A62006EEA44 /* Preview Content */,
+			);
+			path = Ledger;
+			sourceTree = "<group>";
+		};
+		511F5CFF263D9A62006EEA44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				511F5D00263D9A62006EEA44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		511F5CF5263D9A61006EEA44 /* Transaction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 511F5D0A263D9A62006EEA44 /* Build configuration list for PBXNativeTarget "Transaction" */;
+			buildPhases = (
+				511F5CF2263D9A61006EEA44 /* Sources */,
+				511F5CF3263D9A61006EEA44 /* Frameworks */,
+				511F5CF4263D9A61006EEA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Transaction;
+			productName = Ledger;
+			productReference = 511F5CF6263D9A61006EEA44 /* Transaction.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		511F5CEE263D9A61006EEA44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					511F5CF5263D9A61006EEA44 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 511F5CF1263D9A61006EEA44 /* Build configuration list for PBXProject "Transaction" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 511F5CED263D9A61006EEA44;
+			productRefGroup = 511F5CF7263D9A61006EEA44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				511F5CF5263D9A61006EEA44 /* Transaction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		511F5CF4263D9A61006EEA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51743DCF265DF90B00BE6645 /* Lato-Bold.ttf in Resources */,
+				51743DDF265E09DD00BE6645 /* Roboto-Bold.ttf in Resources */,
+				51743DD9265E062000BE6645 /* GillSans-Bold.otf in Resources */,
+				51743DD3265DFC8B00BE6645 /* Lato-Black.ttf in Resources */,
+				51743DDD265E093300BE6645 /* NunitoSans-Bold.ttf in Resources */,
+				51743DE3265E0AEB00BE6645 /* Roboto-Medium.ttf in Resources */,
+				511F5D1D263D9D22006EEA44 /* Cairo-SemiBold.ttf in Resources */,
+				511F5D1E263D9D22006EEA44 /* Cairo-Bold.ttf in Resources */,
+				51743DDB265E08BF00BE6645 /* GillSans-Medium.otf in Resources */,
+				51743DE1265E0ADF00BE6645 /* Roboto-Regular.ttf in Resources */,
+				51743DD1265DF93400BE6645 /* Lato-Regular.ttf in Resources */,
+				511F5D1C263D9D22006EEA44 /* Cairo-Regular.ttf in Resources */,
+				511F5D01263D9A62006EEA44 /* Preview Assets.xcassets in Resources */,
+				511F5D1F263D9D22006EEA44 /* OpenSans-Regular.ttf in Resources */,
+				511F5CFE263D9A62006EEA44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		511F5CF2263D9A61006EEA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511F5D24263D9E19006EEA44 /* ContactPageView.swift in Sources */,
+				51A3291E264D3AB600988C65 /* HomeView.swift in Sources */,
+				511F5D03263D9A62006EEA44 /* Persistence.swift in Sources */,
+				51209564264FA56500555433 /* Project+CoreDataClass.swift in Sources */,
+				512095692650EEEB00555433 /* Contact+CoreDataClass.swift in Sources */,
+				5120956A2650EEEB00555433 /* Contact+CoreDataProperties.swift in Sources */,
+				511F5D25263D9E19006EEA44 /* NewPersonView.swift in Sources */,
+				51209566264FBF4700555433 /* NewProjectView.swift in Sources */,
+				511F5D29263D9E25006EEA44 /* AlertView.swift in Sources */,
+				511F5D26263D9E19006EEA44 /* NewTransactionView.swift in Sources */,
+				511F5CFC263D9A61006EEA44 /* ContentView.swift in Sources */,
+				51F2EF7B26551418003CD055 /* PeopleView.swift in Sources */,
+				511F5D06263D9A62006EEA44 /* Ledger.xcdatamodeld in Sources */,
+				5120955E264FA45500555433 /* Transaction+CoreDataProperties.swift in Sources */,
+				511F5CFA263D9A61006EEA44 /* LedgerApp.swift in Sources */,
+				51209563264FA55B00555433 /* Project+CoreDataProperties.swift in Sources */,
+				5120955D264FA45500555433 /* Transaction+CoreDataClass.swift in Sources */,
+				5144091F263E7BD400AF4E50 /* FirstResponderTextFieldView.swift in Sources */,
+				51209554264FA2C400555433 /* ProjectListView.swift in Sources */,
+				51209556264FA2D200555433 /* ProjectPageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		511F5D08263D9A62006EEA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		511F5D09263D9A62006EEA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		511F5D0B263D9A62006EEA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ledger/Preview Content\"";
+				DEVELOPMENT_TEAM = 5RAM2XZ385;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ledger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riya.transaction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		511F5D0C263D9A62006EEA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ledger/Preview Content\"";
+				DEVELOPMENT_TEAM = 5RAM2XZ385;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ledger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riya.transaction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		511F5CF1263D9A61006EEA44 /* Build configuration list for PBXProject "Transaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511F5D08263D9A62006EEA44 /* Debug */,
+				511F5D09263D9A62006EEA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		511F5D0A263D9A62006EEA44 /* Build configuration list for PBXNativeTarget "Transaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511F5D0B263D9A62006EEA44 /* Debug */,
+				511F5D0C263D9A62006EEA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		511F5D04263D9A62006EEA44 /* Ledger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				511F5D05263D9A62006EEA44 /* Ledger.xcdatamodel */,
+			);
+			currentVersion = 511F5D05263D9A62006EEA44 /* Ledger.xcdatamodel */;
+			path = Ledger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 511F5CEE263D9A61006EEA44 /* Project object */;
+}
